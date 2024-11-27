@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(30, 31, 31), rgb(57, 232, 232));
+}
+
+
+#home-component {
+    background-color: #333;
+    border-radius: 30px;
+    height: 90vh;
+    margin: 2em auto;
+    box-shadow: 3px -5px 10px;
+    width: 90%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.text-highlight {
+    color: rgb(57, 232, 232);
+}
+p {
+    font-size: 0.9rem;
+}
+img {
+    margin: 5em;
+}
+#download-btn {
+    background-color: rgb(57, 232, 232);
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(44, 171, 171),
+                 0px 0px 15px rgb(44, 171, 171),
+                 0px 0px 30px rgb(44, 171, 171),
+                 0px 0px 60px rgb(44, 171, 171);
+                 transition: color 6s ease, transform 0.3s ease;              
+}
+
+#download-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(44, 171, 171),
+                 0px 0px 15px rgb(44, 171, 171),
+                 0px 0px 30px rgb(44, 171, 171),
+                 0px 0px 60px rgb(44, 171, 171);
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px 0;
+}
+
+
+.social-icons a{
+    color: white;
+    text-decoration: none;
+    transition: text-shadow 0.8s ease, transform 0.4s ease;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover, .navbar a:hover {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.2);
+    text-shadow: 0px 0px 10px rgb(44, 171, 171),
+                 0px 0px 20px rgb(44, 171, 171),
+                 0px 0px 40px rgb(44, 171, 171),
+                 0px 0px 80px rgb(44, 171, 171);
+}
