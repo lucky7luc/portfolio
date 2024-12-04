@@ -6,7 +6,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
 #home-component {
     background-color: #333;
     border-radius: 30px;
@@ -52,12 +51,11 @@ body {
 .nav-link.active {
     color: rgb(57, 232, 232);
     font-weight: bold;
-}
+}   
 
 .scrollbar {
     width: 80%;
     height: 100%;
-    overflow: ;
 }
 h1, h2, h3 {
     color: white;
@@ -180,13 +178,14 @@ p a{
 }
 
 #skill-section {
-margin: 3em;
+    margin: 3em;
 }
 .skill-skala {
     border: 1px solid white;
     width: 80vw;
     height: 7px;
     border-radius: 4px;
+    position: relative;
 }
 .skill-line {
     background-color: white;
@@ -196,6 +195,9 @@ margin: 3em;
                  0px 0px 60px rgb(44, 171, 171);
     height: 7px;                 
     border-radius: 4px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: grow 1.5s ease-out forwards;
 }
 #skill-html {
     width: 80%;
@@ -212,12 +214,16 @@ margin: 3em;
 #skill-more {
     width: 45%;
 }
+@keyframes grow {
+    to {
+        transform: scaleX(1);
+    }
+}
 
 .portfolio-container {
-    padding: 2rem;
     text-align: center;
     border-radius: 20px;
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 90%;
     max-width: 1200px;
 }
@@ -270,6 +276,7 @@ margin: 3em;
     body {
         font-size: 0.8rem; 
     }
+    
     .container {
         padding: 5px; 
     }
@@ -280,6 +287,9 @@ margin: 3em;
     }
     .navbar .logo {
         margin-bottom: 0.5em;
+    }
+    #skill-section {
+        margin: 2em;
     }
 }
 

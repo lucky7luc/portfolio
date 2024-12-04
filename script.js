@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const links = document.querySelectorAll(".nav-link");
     const mainContent = document.getElementById("main-content");
 
+
     // Contents for each section
     const content = {
         home: `
