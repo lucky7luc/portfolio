@@ -40,26 +40,110 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         `,
         skills: `
-            <div class="navbar">
-                <div>
-                    <h1>My <span class="text-highlight">Skills</span></h1>
-                    <p>JavaScript, React, CSS, and more!</p>
-                </div>
-                <div>
-                    <p></p>
-                </div>
-            </div>
+        <div id="skill-section">
+            <div class="align-center">
+                <h1>My <span class="text-highlight">Skills</span></h1>
+                <h2>my personal assessment</h2>
+            </div> 
+             <h3>HTML 5</h3>
+             <div class="skill-skala"><div class="skill-line" id="skill-html"></div></div>
+             <h3>CSS 3</h3>
+             <div class="skill-skala"><div class="skill-line" id="skill-css"></div></div>
+             <h3>JavaScript</h3>
+             <div class="skill-skala"><div class="skill-line" id="skill-js"></div></div>
+             <h3>React</h3>
+             <div class="skill-skala"><div class="skill-line" id="skill-react"></div></div>
+             <h3>AI, Bootstrap, SASS & more</h3>
+             <div class="skill-skala"><div class="skill-line" id="skill-more"></div></div>
+        </div>
         `,
         portfolio: `
-            <div class="navbar">
-                <div>
-                    <h1>My <span class="text-highlight">Portfolio</span></h1>
-                    <p>Check out my latest projects here.</p>
-                </div>
-                <div>
-                    <p></p>
-                </div>
-            </div>
+        <div class="portfolio-container">
+        <h1>My <span class="text-highlight">Portfolio</span></h1>
+        <h2>Check out my latest projects here.</h2>
+
+           <div class="project-grid">
+              <div class="project-item">
+                   <iframe 
+                   src="https://lucky7luc.github.io/to-do-list/" 
+                   title="to-do-list"
+                   loading="lazy"
+                   frameborder="0"
+                   style="width: 100%; height: 300px; border-radius: 10px;">
+                   </iframe>
+                   <a href="https://lucky7luc.github.io/to-do-list/" target="_blank" class="project-link">
+                  <h3>To-Do List</h3>
+                  <p>An intuitive app to organize your tasks efficiently and stay productive.</p>
+                  </a>
+              </div>
+              <div class="project-item">
+                   <iframe 
+                   src="https://lucky7luc.github.io/react-weather-app/" 
+                   title="Project 1"
+                   loading="lazy"
+                   frameborder="0"
+                   style="width: 100%; height: 300px; border-radius: 10px;">
+                   </iframe>
+                   <a href="https://lucky7luc.github.io/react-weather-app/" target="_blank" class="project-link">
+                  <h3>Weather forecast</h3>
+                  <p>An interactive app to check the weather forecast for any location.</p>
+                  </a>
+               </div>
+              <div class="project-item">
+                   <iframe 
+                   src="https://lucky7luc.github.io/tic-tac-toe/" 
+                   title="Project 1"
+                   loading="lazy"
+                   frameborder="0"
+                   style="width: 100%; height: 300px; border-radius: 10px;">
+                   </iframe>
+                   <a href="https://lucky7luc.github.io/tic-tac-toe/" target="_blank" class="project-link">
+                  <h3>Tic Tac Toe</h3>
+                  <p>A classic Tic-Tac-Toe game, featuring a user-friendly interface.</p>
+                  </a>
+              </div>
+              <div class="project-item">
+                   <iframe 
+                   src="https://lucky7luc.github.io/js-calculator/" 
+                   title="Project 1"
+                   loading="lazy"
+                   frameborder="0"
+                   style="width: 100%; height: 300px; border-radius: 10px;">
+                   </iframe>
+                   <a href="https://lucky7luc.github.io/js-calculator/" target="_blank" class="project-link">
+                  <h3>Calculator</h3>
+                  <p>A versatile calculator app designed for quick and accurate calculations.</p>
+                   </a>
+              </div>
+              <div class="project-item">
+                   <iframe 
+                   src="https://lucky7luc.github.io/js-quiz-app/" 
+                   title="Project 5"
+                   loading="lazy"
+                   frameborder="0"
+                   style="width: 100%; height: 300px; border-radius: 10px;">
+                   </iframe>
+                   <a href="https://lucky7luc.github.io/js-quiz-app/" target="_blank" class="project-link">
+                   <h3>Quiz</h3>
+                   <p>A fun and dynamic quiz app that challenges your knowledge on various topics.</p>
+                   </a>
+               </div>
+               <div class="project-item">
+                    <iframe 
+                    src="https://lucky7luc.github.io/25-5-clock/" 
+                    title="Project 6"
+                    loading="lazy"
+                    frameborder="0"
+                    style="width: 100%; height: 300px; border-radius: 10px;">
+                    </iframe>
+                    <a href="https://lucky7luc.github.io/25-5-clock/" target="_blank" class="project-link">
+                   <h3>Project 6</h3>
+                   <p>A Pomodoro timer to boost productivity, helping you manage work and break intervals effectively.</p>
+                   </a>
+               </div>
+           </div>
+
+       </div>
         `,
         contact: `
             <div class="align-center">
