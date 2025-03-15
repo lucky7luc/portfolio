@@ -14,20 +14,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Discover my passion for creative web design and modern frontend development <br>– <span class="text-highlight">welcome to my portfolio!</span></p>
 
                 <button type="button" id="download-btn">
-                <a href="download-link.zip" download style="color: black;">Download CV
-                    <i class="fas fa-download" style="color: black; margin: 5px;"></i>
-                </a>
+                <a href="cv-lucas-herrmann.pdf" download="Lucas-Herrmann-CV.pdf" style="color: black;">Download CV
+                        <i class="fas fa-download" style="color: black; margin: 5px;"></i>
+                    </a>
                 </button>
             </div>
             <div>
-                <img src="" alt="Profile of Lucas">
+            <img src="Lucas-portrait.png" alt="Lucas Herrmann, Frontend-Developer" id="portrait">
             </div>    
         </div>    
         `,
         about: `
         <div class="navbar scrollbar">
             <div>
-                <img src="" alt="porfile of Lucas">
+            <img src="Lucas-portrait.png" alt="Lucas Herrmann, Frontend-Developer" id="portrait">
             </div>
             <div>
                 <p>Let me introduce myself</p>
@@ -150,18 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="align-center">
                 <h1>Contact <span class="text-highlight">Me!</span></h1>
 
-                <form id="messageForm">
-                    <div class="flex-container">
-                        <input type="text" class="grid-item placeholder-style" placeholder="Enter first name">
-                        <input type="text" class="grid-item placeholder-style" placeholder="Enter last name">
-                        <input type="email" class="grid-item placeholder-style" placeholder="Enter your email">
-                        <input type="text" class="grid-item placeholder-style" placeholder="Enter concerning">
-
-
-                    <textarea name="message-input" id="message-input" cols="30" rows="10" class="placeholder-style" placeholder="Enter your message here..." required></textarea>
-                    </div>
-                    <button type="submit" id="submit-message">Submit</button>
-                </form>
+                <form id="messageForm" action="https://formspree.io/f/mgvavoay" method="POST">
+                <div class="flex-container">
+                    <input type="text" name="first_name" class="grid-item placeholder-style" placeholder="Enter first name" required>
+                    <input type="text" name="last_name" class="grid-item placeholder-style" placeholder="Enter last name" required>
+                    <input type="email" name="email" class="grid-item placeholder-style" placeholder="Enter your email" required>
+                    <input type="text" name="concerning" class="grid-item placeholder-style" placeholder="Enter concerning">
+                    <textarea name="message" id="message-input" cols="30" rows="10" class="placeholder-style" placeholder="Enter your message here..." required></textarea>
+                </div>
+                <button type="submit" id="submit-message">Submit</button>
+            </form>
+            
 
                 <div id="contact-info">
                     <p>Feel free to reach out via email or LinkedIn!</p>
