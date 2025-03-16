@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h1>My <span class="text-highlight">Skills</span></h1>
                 <h2>my personal assessment</h2>
             </div> 
+            <div>
              <h3>HTML 5</h3>
              <div class="skill-skala"><div class="skill-line" id="skill-html"></div></div>
              <h3>CSS 3</h3>
@@ -56,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
              <div class="skill-skala"><div class="skill-line" id="skill-react"></div></div>
              <h3>AI, Bootstrap, SASS & more</h3>
              <div class="skill-skala"><div class="skill-line" id="skill-more"></div></div>
+             </div>
         </div>
         `,
         portfolio: `
