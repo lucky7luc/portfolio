@@ -283,6 +283,7 @@ p a{
     #main-component > :last-child {
         margin: 5rem;
         width: 90vw;
+        padding: 0px;
     }
     body {
         font-size: 0.8rem; 
