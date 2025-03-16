@@ -279,6 +279,11 @@ p a{
 
 
 @media (max-width: 820px) {
+
+    #main-component > :last-child {
+        margin: 1em;
+        width: 80vw;
+    }
     body {
         font-size: 0.8rem; 
     }
