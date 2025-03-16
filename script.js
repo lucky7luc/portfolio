@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
              </div>
         </div>
         `,
-        portfolio: `
-        <div class="portfolio-container">
-        <h1>My <span class="text-highlight">Portfolio</span></h1>
+        projects: `
+        <div class="projects-container">
+        <h1>My <span class="text-highlight">Projects</span></h1>
         <h2>Check out my latest projects here.</h2>
 
            <div class="project-grid">
