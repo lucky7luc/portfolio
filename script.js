@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Contents for each section
     const content = {
         home: `
-        <div class="navbar">
+        <div class="navbar navbar-reverse">
             <div>
                 <h2>Hello, It's Me</h2>
                 <h1>Lucas Herrmann</h1>
