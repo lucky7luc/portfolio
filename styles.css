@@ -281,7 +281,7 @@ p a{
 @media (max-width: 820px) {
     #main-content > :last-child {
     margin: 0px;
-    width: 100%;
+    width: 100vw;
     }
     body {
         font-size: 0.8rem; 
@@ -314,7 +314,7 @@ p a{
         flex-direction: column-reverse;
     }
     img {
-    margin: 2em;
+    margin: 1em;
     }
     #portrait {
         height: 200px;        
