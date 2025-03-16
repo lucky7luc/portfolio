@@ -282,11 +282,13 @@ p a{
     body {
         font-size: 0.8rem; 
     }
-    
     .container {
         padding: 5px; 
     }
     .navbar {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
         display: block;
         padding-top: 1em;
         text-align: center;
@@ -301,18 +303,13 @@ p a{
         display: flex;
         flex-direction: column;
     }
-
-    .flex-container-home {
-        display: flex;
-        flex-direction: column-reverse;
-    }
     .scrollbar {
         display: flex;
         flex-direction: column-reverse;
     }
     img {
     margin: 2em;
-}
+    }
     #portrait {
         height: 200px;        
         border-radius: 30px;      
