@@ -284,7 +284,7 @@ p a{
         font-size: 0.9rem; 
     }
     #home-component {
-        margin: 0;
+        margin: 1em auto;
     }
      
     .container {
@@ -315,9 +315,4 @@ p a{
         height: 210px;        
         border-radius: 30px;      
     }
-    
-    .navbar a {
-        margin-left: 15px;
-    }
-
 }
