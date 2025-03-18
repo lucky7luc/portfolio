@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Contents for each section
     const content = {
         home: `
-        <div id="home-section">
-        <div class="margin navbar navbar-reverse">
+        <div class="navbar navbar-reverse">
             <div>
                 <h2>Hello, It's Me</h2>
                 <h1>Lucas Herrmann</h1>
@@ -24,11 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <img src="Lucas-portrait.png" alt="Lucas Herrmann, Frontend-Developer" id="portrait">
             </div>    
         </div>    
-        </div>
         `,
         about: `
-        <div id="about-section">
-        <div class="margin navbar scrollbar">
+        <div class="navbar scrollbar">
             <div>
             <img src="Lucas-portrait.png" alt="Lucas Herrmann, Frontend-Developer" id="portrait">
             </div>
@@ -42,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 <span class="text-highlight">Let’s create something great together!</span></p>
             </div>
-        </div>
         </div>
         `,
         skills: `
@@ -66,8 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         `,
         projects: `
-        <div id="projects-section">
-        <div class="margin projects-container">
+        <div class="projects-container">
         <h1>My <span class="text-highlight">Projects</span></h1>
         <h2>Check out my latest projects here.</h2>
 
@@ -153,10 +148,8 @@ document.addEventListener("DOMContentLoaded", () => {
            </div>
 
        </div>
-       </div>
         `,
         contact: `
-        <div id="contact-section">
             <div class="align-center">
                 <h1>Contact <span class="text-highlight">Me!</span></h1>
 
@@ -178,7 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p><strong class="text-highlight">Phone number:</strong> <a href="tel:+41787244562">+41 787 24 45 62</a></p>
                 </div>
             </div>  
-        </div>      
         `,
     };
 
