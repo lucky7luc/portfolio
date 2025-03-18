@@ -54,7 +54,7 @@ body {
 }   
 
 .scrollbar {
-    width: auto;
+    width: 90%;
     height: 100%;
 }
 h1, h2, h3 {
@@ -283,17 +283,12 @@ p a{
     body {
         font-size: 0.9rem; 
     }
-   /* #home-component {
-        margin: 1em auto;
-    }*/
-     
     .container {
         padding: 5px; 
     }
     .navbar .logo {
         margin-bottom: 0.5em;
     }
-
     .navbar-reverse, .scrollbar  {
         display: flex;
         flex-direction: column-reverse;
