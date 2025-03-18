@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Contents for each section
     const content = {
         home: `
-        <div class="navbar navbar-reverse">
+        <div class="margin navbar navbar-reverse">
             <div>
                 <h2>Hello, It's Me</h2>
                 <h1>Lucas Herrmann</h1>
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>    
         `,
         about: `
-        <div class="navbar scrollbar">
+        <div class="margin navbar scrollbar">
             <div>
             <img src="Lucas-portrait.png" alt="Lucas Herrmann, Frontend-Developer" id="portrait">
             </div>
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         `,
         projects: `
-        <div class="projects-container">
+        <div class="margin projects-container">
         <h1>My <span class="text-highlight">Projects</span></h1>
         <h2>Check out my latest projects here.</h2>
 
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
        </div>
         `,
         contact: `
-            <div class="align-center">
+            <div class="margin align-center">
                 <h1>Contact <span class="text-highlight">Me!</span></h1>
 
                 <form id="messageForm" action="https://formspree.io/f/mgvavoay" method="POST">
