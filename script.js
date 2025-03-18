@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Discover my passion for creative web design and modern frontend development <br>– <span class="text-highlight">welcome to my portfolio!</span></p>
 
                 <button type="button" id="download-btn">
-                <a href="cv-lucas-herrmann.pdf" download="Lucas-Herrmann-CV.pdf" style="color: black;">Download CV
+                <a href="cv-lucas-herrmann.pdf" download="CV-Lucas-Herrmann.pdf" style="color: black;">Download CV
                         <i class="fas fa-download" style="color: black; margin: 5px;"></i>
                     </a>
                 </button>
@@ -32,11 +32,12 @@ document.addEventListener("DOMContentLoaded", () => {
             <div>
                 <p>Let me introduce myself</p>
                 <h1>About <span class="text-highlight">Me</span></h1>
-                <h2>A story of good</h2>
-                <p class="word-spacing">Hi, I'm Lucas Herrmann, a dedicated frontend developer with a passion for turning ideas into interactive, user-friendly websites. With experience in React, JavaScript, and modern web design, I focus on creating seamless, responsive applications that work beautifully across all devices.<br><br>
-                    I believe in the power of clean, well-organized code and always aim to strike the perfect balance between functionality and design. I enjoy solving problems and am constantly exploring new tools and technologies to improve my skills.<br><br>
-                    When I'm not coding, you'll find me staying up-to-date with the latest industry trends, collaborating on exciting projects, or experimenting with new creative ideas. I’m always excited for the next challenge and the opportunity to learn and grow.<br><br>
-                    <span class="text-highlight">Let’s create something great together!</span></p>
+                <h2>A Story of Growth and Passion</h2>
+                <p class="word-spacing">Hi, I'm Lucas Herrmann, and my journey has taken me from fine dining kitchens to the digital world. After working as a chef in high-end gastronomy, I had the chance to pursue my passion for snowboarding. Through sponsorships and content creation, I became more involved in the digital space, especially in online marketing, social media, and brand presentation across various platforms.<br><br>
+                Curious about new challenges, I started exploring web development and AI as a hobby. I enjoy learning new technologies, experimenting with creative ideas, and tackling exciting projects. Whether it's coding, digital branding, or optimizing online presence, I’m always eager to discover and grow.<br><br>
+                Beyond that, I have a strong interest in fitness and nutrition, always looking for ways to maintain a balanced and healthy lifestyle.<br><br>
+                
+                <span class="text-highlight">Let’s create something great together!</span></p>
             </div>
         </div>
         `,
