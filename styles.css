@@ -283,6 +283,9 @@ p a{
     body {
         font-size: 0.9rem; 
     }
+    #home-component {
+        margin: 0;
+    }
      
     .container {
         padding: 5px; 
@@ -300,6 +303,9 @@ p a{
         display: flex;
         flex-direction: column-reverse;
     }
+    .projects-container {
+        width: 
+    }
    
     #skill-section {
         margin: 1.5em;
@@ -314,6 +320,14 @@ p a{
     #portrait {
         height: 210px;        
         border-radius: 30px;      
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1500px, 1fr));
+        gap: 1.5rem;
+    }
+    .navbar a {
+        margin-left: 0px;
     }
 
 }
