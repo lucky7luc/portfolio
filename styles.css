@@ -283,15 +283,12 @@ p a{
     body {
         font-size: 0.9rem; 
     }
-    #home-component {
+   /* #home-component {
         margin: 1em auto;
-    }
+    }*/
      
     .container {
         padding: 5px; 
-    }
-    .navbar {
-        padding: 1em 0 0 0;
     }
     .navbar .logo {
         margin-bottom: 0.5em;
@@ -314,5 +311,8 @@ p a{
     #portrait {
         height: 210px;        
         border-radius: 30px;      
+    }
+    .navbar {
+        padding: 1rem 3rem;
     }
 }
