@@ -291,9 +291,7 @@ p a{
         padding: 5px; 
     }
     .navbar {
-        display: block;
         padding: 1em 0 0 0;
-        text-align: center;
     }
     .navbar .logo {
         margin-bottom: 0.5em;
@@ -303,10 +301,6 @@ p a{
         display: flex;
         flex-direction: column-reverse;
     }
-    .projects-container {
-        width: 
-    }
-   
     #skill-section {
         margin: 1.5em;
     }
@@ -321,13 +315,9 @@ p a{
         height: 210px;        
         border-radius: 30px;      
     }
-    .project-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(1500px, 1fr));
-        gap: 1.5rem;
-    }
+    
     .navbar a {
-        margin-left: 0px;
+        margin-left: 15px;
     }
 
 }
