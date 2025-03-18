@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     min-height: 100vh;
     font-family: Arial, sans-serif;
     background: linear-gradient(rgb(30, 31, 31), rgb(57, 232, 232));
@@ -281,19 +282,14 @@ p a{
 
     body {
         font-size: 0.9rem; 
-        margin: 0;
-        padding: 0;
     }
-    #main-content {
-        padding: 0;
-        margin: 0;
-    }    
+     
     .container {
         padding: 5px; 
     }
     .navbar {
         display: block;
-        padding-top: 1em;
+        padding: 1em 0 0 0;
         text-align: center;
     }
     .navbar .logo {
