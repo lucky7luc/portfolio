@@ -306,7 +306,11 @@ p a{
         display: flex;
         flex-direction: column-reverse;
     }
-    #home-section, #about-section, #skill-section, #projects-section, #contact-section {
+    #home-section, #about-section, #contact-section {
+        margin: 0;
+        padding: 0;
+    }
+    #skill-section, #projects-section {
         margin: 1.5em;
     }
     .flex-container {
