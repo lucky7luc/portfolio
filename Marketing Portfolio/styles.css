@@ -61,6 +61,10 @@ h1, h2, h3 {
     color: white;
 }
 
+h3{
+    color: rgb(57, 232, 232);
+}
+
 .text-highlight {
     color: rgb(57, 232, 232);
 }
