@@ -20,15 +20,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 </button>
             </div>
             <div>
-            <img src="Lucas_portrait.png" alt="Lucas Herrmann, Digital Marketer" id="portrait">
+                <img src="google_marketing.png" alt="Google Digital Marketing Certificate" id="google-sticker">
+            </div>
+            <div>
+            <img src="Lucas_portrait.png" alt="Lucas Herrmann, Digital Marketer" class="portrait">
             </div>    
         </div>    
         `,
         about: `
         <div class="navbar scrollbar">
             <div>
-            <img src="Lucas_portrait.png" alt="Lucas Herrmann, Digital Marketer" id="portrait">
+                <img src="Lucas_portrait.png" alt="Lucas Herrmann, Digital Marketer" class="portrait margin-right">
             </div>
+                
             <div>
                 <p>Let me introduce myself</p>
                 <h1>About <span class="text-highlight">Me</span></h1>

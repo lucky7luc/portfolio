@@ -57,6 +57,7 @@ body {
     width: 90%;
     height: 100%;
 }
+
 h1, h2 {
     color: white;
 }
@@ -69,17 +70,31 @@ h3 {
     color: rgb(57, 232, 232);
 }
 p {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 img {
     margin: 5em;
 }
-#portrait {
+.portrait {
     height: 350px;
     width: auto;
     filter: drop-shadow(5px 5px 10px rgba(44, 171, 171, 0.5));
-    border-radius: 60px;                 
+    border-radius: 60px;    
+    margin-right: 0;             
 }
+
+/* Margin right of the portrait in the About me section */
+.margin-right {
+    margin-right: 5em;
+}
+
+#google-sticker {
+    height: 200px;
+    width: auto;
+    filter: drop-shadow(5px 5px 10px rgba(44, 171, 171, 0.5));
+    margin-bottom: 1.5em;
+}
+
 #download-btn, #submit-message {
     background-color: rgb(57, 232, 232);
     padding: 8px;
@@ -94,6 +109,7 @@ img {
                  transition: color 6s ease, transform 0.3s ease;              
 }
 
+
 #download-btn:hover {
     cursor: pointer;
     background-color: white;
@@ -102,7 +118,6 @@ img {
                  0px 0px 30px rgb(44, 171, 171),
                  0px 0px 60px rgb(44, 171, 171);
 }
-
 
 footer {
     color: white;
@@ -172,7 +187,7 @@ footer {
 }
 #contact-info p{
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 p a{
     color: #fff;
@@ -327,5 +342,8 @@ p a{
     #portrait {
         height: 210px;        
         border-radius: 30px;      
+    }
+    .scrollbar{
+        width: 70%;
     }
 }
