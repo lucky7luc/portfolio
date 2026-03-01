@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Focused on engagement, conversion, and measurable results<br>– <span class="text-highlight">welcome to my portfolio!</span></p>
 
                 <button type="button" id="download-btn">
-                <a href="cv_lucas_herrmann.pdf" download="CV_Lucas_Herrmann.pdf" style="color: black;">Download CV
+                <a href="CV_Lucas_Herrmann.pdf" download="CV_Lucas_Herrmann.pdf" style="color: black;">Download CV
                         <i class="fas fa-download" style="color: black; margin: 5px;"></i>
                     </a>
                 </button>
@@ -80,28 +80,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="pdfs/social_media/social_media_calender.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/social_media_calender_image.png" alt="Social Media Calender" class="project-thumb" />
                   <h4>Social Media Calender Plan</h4>
-                  <p>Created a Social Media Calender</p>
+                  <p>Created a Social Media Calender.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/social_media/customer_persona.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/customer_persona_image.png" alt="customer persona image" class="project-thumb" />
                   <h4>Customer Persona</h4>
-                  <p>Developed two customer Personas</p>
+                  <p>Developed two customer Personas.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/social_media/AB_testing.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/AB_testing_image.png" alt="A/B testing image" class="project-thumb" />
                   <h4>A/B Testing</h4>
-                  <p>Two version of a post were tested</p>
+                  <p>Two version of a post were tested.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/social_media/social_listening_engagement.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/listening_engagement_image.png" alt="A/B testing image" class="project-thumb" />
                   <h4>Social listening & engagement</h4>
-                  <p>Actions were taken to customer mentions</p>
+                  <p>Actions were taken to customer mentions.</p>
                 </a>
               </div>
             </div>
@@ -115,42 +115,42 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="pdfs/email/smart_goal.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/smart_goal_image.png" alt="Email Campaign" class="project-thumb" />
                   <h4>SMART Goal</h4>
-                  <p>SMART goal formulation for existing objectives</p>
+                  <p>SMART goal formulation for existing objectives.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/email/email_improvement.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/email_improvement_image.png" alt="Newsletter Design" class="project-thumb" />
                   <h4>Subject line, message body & CTA</h4>
-                  <p>Revisions and additions to missing email elements</p>
+                  <p>Revisions and additions to missing email elements.</p>
                 </a>
               </div>
               <div class="project-item">
               <a href="pdfs/email/campaign_performance.pdf" target="_blank" class="project-link">
                 <img src="thumbnails/campaign_performance_image.png" alt="Newsletter Design" class="project-thumb" />
                 <h4>Campaign performance & presentation</h4>
-                <p>Presentation provided with an additional developed summary, recommendations, conclusion & next steps</p>
+                <p>Presentation provided with an additional developed summary, recommendations, conclusion & next steps.</p>
               </a>
             </div>
             <div class="project-item">
             <a href="pdfs/email/segmentation.pdf" target="_blank" class="project-link">
               <img src="thumbnails/segmentation_image.png" alt="Newsletter Design" class="project-thumb" />
               <h4>Email list & segmentation</h4>
-              <p>Two segmentation approaches were created: one focused on interests and priorities, and the other on demographic factors such as age and location</p>
+              <p>Two segmentation approaches were created: one focused on interests and priorities, and the other on demographic factors such as age and location.</p>
             </a>
           </div>
           <div class="project-item">
             <a href="pdfs/email/retention_apology.pdf" target="_blank" class="project-link">
               <img src="thumbnails/retention_apology_image.png" alt="Newsletter Design" class="project-thumb" />
               <h4>Retention & Apology email</h4>
-              <p>Two different emails were created for separate companies and scenarios: one retention email and one apology email</p>
+              <p>Two different emails were created for separate companies and scenarios: one retention email and one apology email.</p>
             </a>
           </div>
           <div class="project-item">
             <a href="pdfs/email/welcome.pdf" target="_blank" class="project-link">
               <img src="thumbnails/welcome_email_image.png" alt="Newsletter Design" class="project-thumb" />
               <h4>Welcome email</h4>
-              <p>A welcome email was designed using Mailchimp</p>
+              <p>A welcome email was designed using Mailchimp.</p>
             </a>
           </div>
             </div>
@@ -164,14 +164,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="pdfs/analytics/stakeholders.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/stakeholder_image.png" alt="Analytics Report" class="project-thumb" />
                   <h4>Identifying Stakeholders & communication</h4>
-                  <p>Examples of communication approaches for different stakeholders</p>
+                  <p>Examples of communication approaches for different stakeholders.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/analytics/google_ads.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/google_ads_image.png" alt="Analytics Report" class="project-thumb" />
                   <h4>Recommendation handling & A/B Testing plan</h4>
-                  <p>Google Ads Recommendations were assessed & a A/B testing plan was developed</p>
+                  <p>Google Ads Recommendations were assessed & a A/B testing plan was developed.</p>
                 </a>
               </div>
               <div class="project-item">
@@ -198,15 +198,16 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="project-item">
                 <a href="pdfs/SEO_SEM/headlines.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/headlines_image.png" alt="SEO Strategy" class="project-thumb" />
-                  <h4>SEO Optimization Strategy</h4>
-                  <p>Improved titles & Meta tags. Designed Headlines, Descriptions and Extensions. Gave Feedback to a Business.</p>
+                  <h4>Headlines | Descriptions | Extensions</h4>
+                  <p>Developed headlines, descriptions, and
+                  extensions for the fictional Oscar’s Bakery advertising campaign.</p>
                 </a>
               </div>
               <div class="project-item">
                 <a href="pdfs/SEO_SEM/feedback.pdf" target="_blank" class="project-link">
                   <img src="thumbnails/feedback_image.png" alt="SEO Strategy" class="project-thumb" />
-                  <h4>SEO Optimization Strategy</h4>
-                  <p>Improved titles & Meta tags. Designed Headlines, Descriptions and Extensions. Gave Feedback to a Business.</p>
+                  <h4>Feedback</h4>
+                  <p>Feedback was provided for the fictional Great Grounds Coffee Shop.</p>
                 </a>
               </div>
             </div>
@@ -233,8 +234,10 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="project-item">
               <a href="pdfs/ecommerce/checkout_evaluation.pdf" target="_blank" class="project-link">
                 <img src="thumbnails/checkout_evaluation_image.png" alt="E-commerce Growth" class="project-thumb" />
-                <h4>Competitive Analysis</h4>
-                <p>3 Competitive websites has been analyst.</p>
+                <h4>Checkout Evalutation</h4>
+                <p>the checkout process of the fictional brand Tee’s Shirts was evaluated
+                to identify potential issues and recommend actionable improvements for a smoother
+                user experience.</p>
               </a>
             </div>
             <div class="project-item">
