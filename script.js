@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Discover my passion for creative web design and modern frontend development <br>– <span class="text-highlight">welcome to my portfolio!</span></p>
 
                 <button type="button" id="download-btn">
-                <a href="cv-lucas-herrmann.pdf" download="CV-Lucas-Herrmann.pdf" style="color: black;">Download CV
+                <a href="CV-Lucas-Herrmann.pdf" download="CV-Lucas-Herrmann.pdf" style="color: black;">Download CV
                         <i class="fas fa-download" style="color: black; margin: 5px;"></i>
                     </a>
                 </button>
